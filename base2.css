@@ -1,0 +1,121 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+a { color:black; text-decoration: underline;}
+.bar {
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    min-height: 10px;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+    height: 2000px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+.header-h1 {
+    position: relative;
+    text-align: center;
+    top: 100px;
+    margin: 0px;
+}
+.header-img {
+    position: relative;
+    bottom: 25px;
+    width: 200px;
+}
+.main-img {
+    position: relative;
+    left: 220px;
+}
+.noto-serif-display-h1 {
+  font-family: "Noto Serif Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.div-logo {
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+}
+.main-p {
+    position: relative;
+    top: 10px;
+}
+.main-h2 {
+    position: relative;
+    top: 20px;
+}
+.main-img2 {
+    position: relative;
+    width: 150px;
+    float: left;
+    margin-right: 20px;
+}
+.main-img3 {
+    position: relative;
+    width: 200px;
+    float: left;
+    right: 200px;
+    top: 50px;
+}
+.main-hh {
+    position: relative;
+    right: 200px;
+    top: 35px;
+}
+.main-img4 {
+    position: relative;
+    width: 180px;
+    float: left;
+    top: 30px;
+    right: 25px;
+}
+.main-ht {
+    position: relative;
+    top: 70px;
+    right: 20px;
+}
+.jogos {
+    position: relative;
+    top: 150px;
+}
+.tabela-fixada {
+    position: relative;
+    width: 600px;
+    top: 180px;
+}
+.hr {
+    position: relative;
+    top: 100px;
+    width: 800px;
+}
